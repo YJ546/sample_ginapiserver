@@ -2,7 +2,7 @@
 SERVER_VERSION = v0.1.0
 ## Folder content generated files
 BUILD_FOLDER = ./build
-PROJECT_URL  = github.com/duyanghao/gin-apiserver
+PROJECT_URL  = github.com/duyanghao/sample_apiserver
 ## command
 GO           = go
 GO_VENDOR    = go mod
@@ -41,15 +41,15 @@ download:
 
 .PHONY: src.build
 src.build:
-	$(MKDIR_P) $(BUILD_FOLDER)/pkg/cmd/gin-apiserver/
-	GO111MODULE=on $(GO) build -mod=vendor -v -o $(BUILD_FOLDER)/pkg/cmd/gin-apiserver/gin-apiserver \
+	$(MKDIR_P) $(BUILD_FOLDER)/pkg/cmd/sample_apiserver/
+	GO111MODULE=on $(GO) build -mod=vendor -v -o $(BUILD_FOLDER)/pkg/cmd/sample_apiserver/sample_apiserver \
 	./cmd/...
 
 ## dockerfiles/ ########################################
 
 .PHONY: dockerfiles.build
 dockerfiles.build:
-	docker build --no-cache --rm --tag duyanghao/gin-apiserver:$(SERVER_VERSION) -f ./docker/Dockerfile .
+	docker build --no-cache --rm --tag duyanghao/sample_apiserver:$(SERVER_VERSION) -f ./docker/Dockerfile .
 
 ## git tag version ########################################
 

@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/duyanghao/gin-apiserver/pkg/config"
+	"github.com/duyanghao/sample_apiserver/pkg/config"
 	"github.com/gin-gonic/gin"
 )
 

@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/duyanghao/gin-apiserver/pkg/config"
-	"github.com/duyanghao/gin-apiserver/pkg/log"
-	"github.com/duyanghao/gin-apiserver/pkg/route"
-	"github.com/duyanghao/gin-apiserver/pkg/util"
+	"github.com/duyanghao/sample_apiserver/pkg/config"
+	"github.com/duyanghao/sample_apiserver/pkg/log"
+	"github.com/duyanghao/sample_apiserver/pkg/route"
+	"github.com/duyanghao/sample_apiserver/pkg/util"
 	"github.com/gin-gonic/gin"
 )
 
