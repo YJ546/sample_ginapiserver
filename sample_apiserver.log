@@ -1,0 +1,680 @@
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/get/:id   --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/list      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/gin-apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-15T05:23:42-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+[GIN-debug] [ERROR] listen tcp 0.0.0.0:8081: bind: address already in use
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/get/:id   --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/list      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-15T22:41:36-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/get/:id   --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/list      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-15T22:44:28-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-16T02:46:58-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+[GIN] 2022/07/16 - 02:47:08 | 200 |     406.428µs |       127.0.0.1 | GET      "/swagger/index.html"
+[GIN] 2022/07/16 - 02:47:10 | 200 |     122.731µs |       127.0.0.1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2022/07/16 - 02:47:10 | 200 |     363.769µs |       127.0.0.1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2022/07/16 - 02:47:10 | 200 |   58.938771ms |       127.0.0.1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2022/07/16 - 02:47:13 | 200 |   28.558136ms |       127.0.0.1 | GET      "/swagger/doc.json"
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-16T02:56:49-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+[GIN] 2022/07/16 - 02:56:54 | 404 |    1.292523ms |       127.0.0.1 | GET      "/api/v1/swagger/index.html"
+[GIN] 2022/07/16 - 02:56:55 | 404 |       1.152µs |       127.0.0.1 | GET      "/favicon.ico"
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-16T03:10:55-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-16T03:14:32-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-16T03:14:39-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-17T19:52:11-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-17T19:52:58-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-17T19:53:03-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-17T19:54:59-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-17T20:02:18-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-17T20:06:35-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-17T20:18:24-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+[GIN] 2022/07/17 - 20:33:26 | 200 |    1.952259ms |       127.0.0.1 | GET      "/swagger/index.html"
+[GIN] 2022/07/17 - 20:33:27 | 200 |     850.739µs |       127.0.0.1 | GET      "/swagger/swagger-ui.css"
+[GIN] 2022/07/17 - 20:33:27 | 200 |   152.22073ms |       127.0.0.1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+[GIN] 2022/07/17 - 20:33:27 | 200 |   332.98117ms |       127.0.0.1 | GET      "/swagger/swagger-ui-bundle.js"
+[GIN] 2022/07/17 - 20:33:28 | 200 |   17.828762ms |       127.0.0.1 | GET      "/swagger/doc.json"
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-17T20:38:31-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+map[1:0xc000068d80]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Select-fm (4 handlers)
+[GIN-debug] GET    /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.List-fm (4 handlers)
+[GIN-debug] POST   /api/v1/cluster           --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Insert-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Modify-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/cluster/:id       --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.Delete-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-18T04:46:51-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+[]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.GetCluster-fm (4 handlers)
+[GIN-debug] GET    /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.ListClusters-fm (4 handlers)
+[GIN-debug] POST   /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.CreateCluster-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.UpdateCluster-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.DeleteCluster-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-18T04:49:06-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+[]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.GetCluster-fm (4 handlers)
+[GIN-debug] GET    /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.ListClusters-fm (4 handlers)
+[GIN-debug] POST   /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.CreateCluster-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.UpdateCluster-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.DeleteCluster-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-18T04:50:21-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+[]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.GetCluster-fm (4 handlers)
+[GIN-debug] GET    /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.ListClusters-fm (4 handlers)
+[GIN-debug] POST   /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.CreateCluster-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.UpdateCluster-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.DeleteCluster-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-18T04:52:28-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+[]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.GetCluster-fm (4 handlers)
+[GIN-debug] GET    /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.ListClusters-fm (4 handlers)
+[GIN-debug] POST   /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.CreateCluster-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.UpdateCluster-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.DeleteCluster-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-18T05:08:42-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+init clusterstable(stored in memory) sucessfully...
+tableClusters:
+[]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.GetCluster-fm (4 handlers)
+[GIN-debug] GET    /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.ListClusters-fm (4 handlers)
+[GIN-debug] POST   /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.CreateCluster-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.UpdateCluster-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.DeleteCluster-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-18T05:11:58-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081
+Init Clusterstable.
+tableClusters:
+[]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /ping                     --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /version                  --> github.com/duyanghao/sample_apiserver/pkg/controller.Version (4 handlers)
+[GIN-debug] GET    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] POST   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PUT    /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] PATCH  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] HEAD   /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] OPTIONS /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] DELETE /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] CONNECT /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] TRACE  /-/reload                 --> github.com/duyanghao/sample_apiserver/pkg/route.InstallRoutes.func1 (4 handlers)
+[GIN-debug] GET    /api/v1/ping              --> github.com/duyanghao/sample_apiserver/pkg/controller.Ping (4 handlers)
+[GIN-debug] GET    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.GetCluster-fm (4 handlers)
+[GIN-debug] GET    /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.ListClusters-fm (4 handlers)
+[GIN-debug] POST   /api/v1/clusters          --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.CreateCluster-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.UpdateCluster-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/clusters/:id      --> github.com/duyanghao/sample_apiserver/pkg/controller.ClusterController.DeleteCluster-fm (4 handlers)
+{"function_name":"main.main","level":"info","line_num":21,"module_name":"/home/yujian/sample_apiserver/cmd/main.go","msg":"Run server at 0.0.0.0:8081","time":"2022-07-21T02:51:01-07:00"}
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8081

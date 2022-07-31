@@ -1,0 +1,144 @@
+basePath: /api/v1
+definitions:
+  models.Cluster:
+    properties:
+      ID:
+        type: integer
+      Name:
+        type: string
+      Num:
+        type: integer
+    type: object
+info:
+  contact:
+    email: 1194373959@qq.com
+    name: gaoyujian
+    url: github.com/YJ546
+  description: This is a sample_apiserver.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  title: Swagger sample_apiserver
+  version: 0.1.0
+paths:
+  /api/v1/clusters:
+    get:
+      description: List all of clusters' message
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/models.Cluster'
+      summary: 展示集群列表
+    post:
+      description: to add a cluster's message
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/models.Cluster'
+      summary: 创建集群
+  /api/v1/clusters/{id}:
+    delete:
+      description: to delete a cluster's message by id
+      parameters:
+      - description: 集群id
+        in: path
+        name: ID
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/models.Cluster'
+      summary: 删除集群
+    get:
+      description: to get a cluster's message by id
+      parameters:
+      - description: 集群id
+        in: path
+        name: ID
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/models.Cluster'
+      summary: 查询集群
+    put:
+      description: to modify a cluster's message by id
+      parameters:
+      - description: 集群id
+        in: path
+        name: ID
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/models.Cluster'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/models.Cluster'
+      summary: 更新集群信息
+swagger: "2.0"

@@ -1,0 +1,217 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a sample_apiserver.",
+        "title": "Swagger sample_apiserver",
+        "contact": {
+            "name": "gaoyujian",
+            "url": "github.com/YJ546",
+            "email": "1194373959@qq.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "0.1.0"
+    },
+    "basePath": "/api/v1",
+    "paths": {
+        "/api/v1/clusters": {
+            "get": {
+                "description": "List all of clusters' message",
+                "summary": "展示集群列表",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "403": {
+                        "description": "Forbidden",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    }
+                }
+            },
+            "post": {
+                "description": "to add a cluster's message",
+                "summary": "创建集群",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "403": {
+                        "description": "Forbidden",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/clusters/{id}": {
+            "get": {
+                "description": "to get a cluster's message by id",
+                "summary": "查询集群",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "集群id",
+                        "name": "ID",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "403": {
+                        "description": "Forbidden",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    }
+                }
+            },
+            "put": {
+                "description": "to modify a cluster's message by id",
+                "summary": "更新集群信息",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "集群id",
+                        "name": "ID",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "403": {
+                        "description": "Forbidden",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "description": "to delete a cluster's message by id",
+                "summary": "删除集群",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "集群id",
+                        "name": "ID",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "403": {
+                        "description": "Forbidden",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "$ref": "#/definitions/models.Cluster"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "models.Cluster": {
+            "type": "object",
+            "properties": {
+                "ID": {
+                    "type": "integer"
+                },
+                "Name": {
+                    "type": "string"
+                },
+                "Num": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}
